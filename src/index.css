@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* index.css atau App.css */
+body {
+  @apply bg-semislate; /* Gunakan warna custom yang sudah ditambahkan di tailwind.config.js */
+}
