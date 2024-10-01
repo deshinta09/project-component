@@ -14,9 +14,7 @@ export default function Login() {
         onSubmit={handleSubmit}
         className="grid gap-3 border border-[#005866] rounded px-12 pb-16 pt-6 shadow-lg"
       >
-        <h1 className="text-lg font-bold text-center py-6">
-          Login to Dashboard
-        </h1>
+        <h1 className="text-lg font-bold text-center py-6">Login</h1>
         <label className="input input-bordered flex items-center gap-2">
           Name
           <input type="text" className="grow" placeholder="Your name" />
