@@ -18,8 +18,7 @@ export default function LayoutMain() {
         <div className="bg-[#56A0AF] text-white flex justify-between h-20 items-center px-3">
           <div className="flex items-center">
             <div
-              // className={`${openDrawer && "hidden"}`}
-              className="hover:bg-[#206F7E] rounded-full p-2"
+              className="hover:bg-[#206F7E] rounded-full p-2 cursor-pointer"
               onClick={() => setOpenDrawer(!openDrawer)}
             >
               <Bars3Icon className="w-6" />
